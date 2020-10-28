@@ -13,16 +13,48 @@ if(preferDarkMode ){
     console.log('light mode set!');
     document.body.style.background = 'ghostwhite';
 }*/
-//Swicht
+//Switch change the if())
 const colorMode = 'dark';
 
-if (colorMode === 'solarized') {
-    console.log('solarized mode set!'); 
-    document.body.style.background = 'palegoldenrod';
- } else if (colorMode === 'dark') {
-   console.log('dark mode set!');  
-   document.body.style.background = 'black';
- } else {    
-   console.log('light mode set!');
-   document.body.style.background = 'ghostwhite';
- }
+switch (colorMode === 'solarized') {
+    case "solarized":
+        console.log('solarized mode set!'); 
+        document.body.style.background = 'palegoldenrod';
+    case 'dark': 
+        console.log('dark mode set!');  
+        document.body.style.background = 'black';
+    default:    
+        console.log('light mode set!');
+        document.body.style.background = 'ghostwhite';
+}
+
+Challenge
+// Challenge 1: create a conditional that logs out "Good morning!", "Good evening!" and so on depending on the value of time (<- a variable)
+
+// Challenge 2: Rewrite the whole thing as a switch statement
+
+const time = "night" // could be "afternoon", "evening" and "night"
+
+// if (time === "morning") {
+//     console.log("Good morning!");
+// } else if (time === "afternoon") {
+//     console.log("Good afternoon!");
+// } else if (time === "evening") {
+//     console.log("Good evening!");
+// } else {
+//     console.log("Good night!");
+// }
+
+switch (time) {
+    case "morning":
+        console.log("Good morning!");
+    break; 
+    case "afternoon":
+        console.log("Good afternoon!");
+    break; 
+    case "evening":
+        console.log("Good evening!");
+    break;
+    default:
+        console.log("Good night!");
+}
