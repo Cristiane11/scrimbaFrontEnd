@@ -22,3 +22,29 @@ this example is when the JS convert the string to a number without we telling js
 */
 
 console.log('1' * '2');
+// truthy (true)
+// falsy (false)
+
+if (0) {
+    console.log('run');
+  } else {
+    console.log('skipped');
+
+    
+// falsy (false) condition that is false 
+
+// false
+// 0
+// ''
+// null
+// undefined
+// NaN
+// 1) Avoid direct comparisons in conditionals
+
+const username = null;
+
+if (!username) {
+  console.log('no user');
+}
+
+// 2) Use triple equals === (strict equals operator)
