@@ -47,4 +47,17 @@ if (!username) {
   console.log('no user');
 }
 
-// 2) Use triple equals === (strict equals operator)
+// 2) Use triple equals === (strict equals operator) 
+
+// if (null === undefined) {
+//   console.log('equals');
+// } else {
+//   console.log('not equals');
+// }
+// 3) Convert to real Boolean values where needed
+
+if (Boolean(NaN) === Boolean(NaN)) {
+    console.log('equal')
+} else {
+    console.log('not equals')
+}
