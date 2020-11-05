@@ -61,3 +61,18 @@ if (Boolean(NaN) === Boolean(NaN)) {
 } else {
     console.log('not equals')
 }
+const isAuthenticated = true;
+// let cartItemCount = 0;
+
+// if (isAuthenticated) {
+//   // add item to cart
+//   cartItemCount = 1;
+// } else {
+//   // tell user to login
+// //   console.log("Please log in!");
+//   cartItemCount = 0;
+// }
+
+const cartItemCount = isAuthenticated ? 1 : 0;
+console.log(cartItemCount);
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
