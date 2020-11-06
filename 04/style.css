@@ -1,0 +1,9 @@
+body{
+    --backgroud-color:#23ff21;
+}
+.paragraph{
+    color:red;
+}
+h1{
+    --text-aline: center;
+}
