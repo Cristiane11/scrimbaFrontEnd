@@ -1,9 +1,17 @@
+
 body{
-    --backgroud-color:#23ff21;
+    background-color: rgb(231, 158, 201);
+    color:rgb(109, 3, 56);
 }
 .paragraph{
-    color:red;
+    color:rgb(233, 69, 159);
 }
 h1{
-    --text-aline: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 200px;
+}
+img{
+    width: 450px;
+    -moz-text-align-last: left;
 }
