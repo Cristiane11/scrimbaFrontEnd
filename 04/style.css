@@ -3,6 +3,12 @@ body{
     background-color: rgb(231, 158, 201);
     color:rgb(109, 3, 56);
 }
+nav{
+    height: 20px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    object-position: center;
+}
 .paragraph{
     color:rgb(233, 69, 159);
 }
@@ -14,4 +20,7 @@ h1{
 img{
     width: 450px;
    
+}
+a{
+    color:red;
 }
