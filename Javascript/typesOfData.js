@@ -76,3 +76,17 @@ const isAuthenticated = true;
 const cartItemCount = isAuthenticated ? 1 : 0;
 console.log(cartItemCount);
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
+
+const age = 20;
+
+// let greeting;
+
+// if (age < 10) {
+//   greeting = "Hey there"; 
+// } else {
+//   greeting = "That's an interesting age!";  
+// }
+// console.log(greeting);
+
+const greeting = age < 10 ? "Hey there" : "That's an interesting age!";
+console.log(greeting);
