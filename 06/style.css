@@ -1,13 +1,20 @@
 
 body{
+    margin:0;
     background-color: rgb(231, 158, 201);
     color:rgb(109, 3, 56);
 }
 nav{
-    height: 20px;
-    font-size: 22px;
+    background-color: yellowgreen;
+    font-size: 42px;
     font-family: 'Times New Roman', Times, serif;
-    object-position: center;
+    text-align: center;
+    margin-top: 0;
+    padding: 25px 0;
+}
+nav p{
+    position:absolute;  
+    padding-bottom: 15px;
 }
 .paragraph{
     color:rgb(233, 69, 159);
